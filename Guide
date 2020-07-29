@@ -1,0 +1,41 @@
+Rancangan Database
+    tb_admin
+        admin_id
+        admin_nama
+        admin_username
+        admin_password
+
+    tb_dosen
+        dosen_id
+        dosen_nidn
+        dosen_kode
+        dosen_nama
+        dosen_jkel
+        dosen_alamat
+        dosen_tmp_tgl_lahir
+        dosen_agama
+        dosen_pdd
+        dosen_status
+        dosen_tgl_msk
+        dosen_email
+        dosen_nohp
+
+    tb_berita
+        berita_id
+        admin_id
+        berita_judul
+        berita_isi
+        berita_gambar
+        berita_tgl_post
+
+    tb_penelitian
+        penelitian_id
+        dosen_id
+        admin_id
+        penelitian_judul
+        penelitian_status
+        penelitian_file
+        penelitian_mulai
+        penelitian_selesai  
+
+            
